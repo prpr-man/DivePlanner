@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68478EDE1B661BCD001277E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68478EDD1B661BCD001277E7 /* AppDelegate.swift */; };
+		68478EE01B661BCD001277E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68478EDF1B661BCD001277E7 /* ViewController.swift */; };
+		68478EE31B661BCD001277E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68478EE11B661BCD001277E7 /* Main.storyboard */; };
+		68478EE51B661BCD001277E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68478EE41B661BCD001277E7 /* Assets.xcassets */; };
+		68478EE81B661BCD001277E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68478EE61B661BCD001277E7 /* LaunchScreen.storyboard */; };
+		68478EF31B661BCD001277E7 /* Dive_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68478EF21B661BCD001277E7 /* Dive_PlannerTests.swift */; };
+		68478EFE1B661BCD001277E7 /* Dive_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68478EFD1B661BCD001277E7 /* Dive_PlannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68478EEF1B661BCD001277E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68478ED21B661BCD001277E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68478ED91B661BCD001277E7;
+			remoteInfo = "Dive Planner";
+		};
+		68478EFA1B661BCD001277E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68478ED21B661BCD001277E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68478ED91B661BCD001277E7;
+			remoteInfo = "Dive Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68478EDA1B661BCD001277E7 /* Dive Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dive Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68478EDD1B661BCD001277E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68478EDF1B661BCD001277E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68478EE21B661BCD001277E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68478EE41B661BCD001277E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68478EE71B661BCD001277E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68478EE91B661BCD001277E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68478EEE1B661BCD001277E7 /* Dive PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dive PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68478EF21B661BCD001277E7 /* Dive_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dive_PlannerTests.swift; sourceTree = "<group>"; };
+		68478EF41B661BCD001277E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68478EF91B661BCD001277E7 /* Dive PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dive PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68478EFD1B661BCD001277E7 /* Dive_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dive_PlannerUITests.swift; sourceTree = "<group>"; };
+		68478EFF1B661BCD001277E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68478ED71B661BCD001277E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68478EEB1B661BCD001277E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68478EF61B661BCD001277E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68478ED11B661BCD001277E7 = {
+			isa = PBXGroup;
+			children = (
+				68478EDC1B661BCD001277E7 /* Dive Planner */,
+				68478EF11B661BCD001277E7 /* Dive PlannerTests */,
+				68478EFC1B661BCD001277E7 /* Dive PlannerUITests */,
+				68478EDB1B661BCD001277E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68478EDB1B661BCD001277E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68478EDA1B661BCD001277E7 /* Dive Planner.app */,
+				68478EEE1B661BCD001277E7 /* Dive PlannerTests.xctest */,
+				68478EF91B661BCD001277E7 /* Dive PlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68478EDC1B661BCD001277E7 /* Dive Planner */ = {
+			isa = PBXGroup;
+			children = (
+				68478EDD1B661BCD001277E7 /* AppDelegate.swift */,
+				68478EDF1B661BCD001277E7 /* ViewController.swift */,
+				68478EE11B661BCD001277E7 /* Main.storyboard */,
+				68478EE41B661BCD001277E7 /* Assets.xcassets */,
+				68478EE61B661BCD001277E7 /* LaunchScreen.storyboard */,
+				68478EE91B661BCD001277E7 /* Info.plist */,
+			);
+			path = "Dive Planner";
+			sourceTree = "<group>";
+		};
+		68478EF11B661BCD001277E7 /* Dive PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				68478EF21B661BCD001277E7 /* Dive_PlannerTests.swift */,
+				68478EF41B661BCD001277E7 /* Info.plist */,
+			);
+			path = "Dive PlannerTests";
+			sourceTree = "<group>";
+		};
+		68478EFC1B661BCD001277E7 /* Dive PlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68478EFD1B661BCD001277E7 /* Dive_PlannerUITests.swift */,
+				68478EFF1B661BCD001277E7 /* Info.plist */,
+			);
+			path = "Dive PlannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68478ED91B661BCD001277E7 /* Dive Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68478F021B661BCD001277E7 /* Build configuration list for PBXNativeTarget "Dive Planner" */;
+			buildPhases = (
+				68478ED61B661BCD001277E7 /* Sources */,
+				68478ED71B661BCD001277E7 /* Frameworks */,
+				68478ED81B661BCD001277E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dive Planner";
+			productName = "Dive Planner";
+			productReference = 68478EDA1B661BCD001277E7 /* Dive Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68478EED1B661BCD001277E7 /* Dive PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68478F051B661BCD001277E7 /* Build configuration list for PBXNativeTarget "Dive PlannerTests" */;
+			buildPhases = (
+				68478EEA1B661BCD001277E7 /* Sources */,
+				68478EEB1B661BCD001277E7 /* Frameworks */,
+				68478EEC1B661BCD001277E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68478EF01B661BCD001277E7 /* PBXTargetDependency */,
+			);
+			name = "Dive PlannerTests";
+			productName = "Dive PlannerTests";
+			productReference = 68478EEE1B661BCD001277E7 /* Dive PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68478EF81B661BCD001277E7 /* Dive PlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68478F081B661BCD001277E7 /* Build configuration list for PBXNativeTarget "Dive PlannerUITests" */;
+			buildPhases = (
+				68478EF51B661BCD001277E7 /* Sources */,
+				68478EF61B661BCD001277E7 /* Frameworks */,
+				68478EF71B661BCD001277E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68478EFB1B661BCD001277E7 /* PBXTargetDependency */,
+			);
+			name = "Dive PlannerUITests";
+			productName = "Dive PlannerUITests";
+			productReference = 68478EF91B661BCD001277E7 /* Dive PlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68478ED21B661BCD001277E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = TMDC;
+				TargetAttributes = {
+					68478ED91B661BCD001277E7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					68478EED1B661BCD001277E7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 68478ED91B661BCD001277E7;
+					};
+					68478EF81B661BCD001277E7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 68478ED91B661BCD001277E7;
+					};
+				};
+			};
+			buildConfigurationList = 68478ED51B661BCD001277E7 /* Build configuration list for PBXProject "Dive Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68478ED11B661BCD001277E7;
+			productRefGroup = 68478EDB1B661BCD001277E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68478ED91B661BCD001277E7 /* Dive Planner */,
+				68478EED1B661BCD001277E7 /* Dive PlannerTests */,
+				68478EF81B661BCD001277E7 /* Dive PlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68478ED81B661BCD001277E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68478EE81B661BCD001277E7 /* LaunchScreen.storyboard in Resources */,
+				68478EE51B661BCD001277E7 /* Assets.xcassets in Resources */,
+				68478EE31B661BCD001277E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68478EEC1B661BCD001277E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68478EF71B661BCD001277E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68478ED61B661BCD001277E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68478EE01B661BCD001277E7 /* ViewController.swift in Sources */,
+				68478EDE1B661BCD001277E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68478EEA1B661BCD001277E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68478EF31B661BCD001277E7 /* Dive_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68478EF51B661BCD001277E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68478EFE1B661BCD001277E7 /* Dive_PlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68478EF01B661BCD001277E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68478ED91B661BCD001277E7 /* Dive Planner */;
+			targetProxy = 68478EEF1B661BCD001277E7 /* PBXContainerItemProxy */;
+		};
+		68478EFB1B661BCD001277E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68478ED91B661BCD001277E7 /* Dive Planner */;
+			targetProxy = 68478EFA1B661BCD001277E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68478EE11B661BCD001277E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68478EE21B661BCD001277E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68478EE61B661BCD001277E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68478EE71B661BCD001277E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68478F001B661BCD001277E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68478F011B661BCD001277E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68478F031B661BCD001277E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dive Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMDC.Dive-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68478F041B661BCD001277E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dive Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMDC.Dive-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68478F061B661BCD001277E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dive PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMDC.Dive-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dive Planner.app/Dive Planner";
+			};
+			name = Debug;
+		};
+		68478F071B661BCD001277E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dive PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMDC.Dive-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dive Planner.app/Dive Planner";
+			};
+			name = Release;
+		};
+		68478F091B661BCD001277E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dive PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMDC.Dive-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dive Planner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		68478F0A1B661BCD001277E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dive PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMDC.Dive-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dive Planner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68478ED51B661BCD001277E7 /* Build configuration list for PBXProject "Dive Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68478F001B661BCD001277E7 /* Debug */,
+				68478F011B661BCD001277E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68478F021B661BCD001277E7 /* Build configuration list for PBXNativeTarget "Dive Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68478F031B661BCD001277E7 /* Debug */,
+				68478F041B661BCD001277E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68478F051B661BCD001277E7 /* Build configuration list for PBXNativeTarget "Dive PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68478F061B661BCD001277E7 /* Debug */,
+				68478F071B661BCD001277E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68478F081B661BCD001277E7 /* Build configuration list for PBXNativeTarget "Dive PlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68478F091B661BCD001277E7 /* Debug */,
+				68478F0A1B661BCD001277E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68478ED21B661BCD001277E7 /* Project object */;
+}
